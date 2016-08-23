@@ -1,0 +1,133 @@
+
+
+
+body {
+  background-color: #298eea;
+  font-family: roboto;
+  padding-top: 60px;
+}
+
+
+
+.logo-analog {
+  display: block;
+  height: 35px;
+  width: auto;
+  margin: 0 auto 30px;
+}
+
+.content1 {
+  background-color: white;
+  margin: 0 auto;
+    border-radius: 3px;
+    width: 400px;
+}
+
+.form {
+    border-radius: 3px;
+    padding: 40px;
+}
+
+legend {
+  margin: 0 auto 40px;
+  font-size: 40px;
+  line-height: 30px;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+button[type="submit"] {
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 18px;
+    height: auto;
+    border: 0;
+    display: block;
+    border: 0;
+    padding:15px 0;
+
+
+}
+
+.email1, .password1 {
+    display: block;
+    margin: 20px auto;
+
+}
+
+#mail, #pword {
+    border: 2px solid #e7e7e7;
+
+}
+
+#button {
+    background: #15CD72;
+    font-size: 22px;
+    color: white;
+    margin: 0;
+}
+
+p .fpword {
+    font-size: 14px;
+    height: auto;
+    color: #999;
+    text-align: center;
+    display: block;
+    margin: 0;
+
+}
+
+
+.haveaccount {
+  text-align: center;
+  color: white;
+    margin: 10px;
+}
+
+.haveaccount a {
+    color: white;
+}
+
+margin: 0 auto;
+      border-radius: 3px;
+      width: 400px;
+ +    padding:40px;
+ +    height: auto;
+ +    box-sizing: border-box;
+  }
+  
+  .form {
+      border-radius: 3px;
+ -    padding: 40px;
+  }
+  
+  legend {
+  	margin: 0 auto 40px;
+ -	font-size: 40px;
+ +	font-size: 35px;
+  	line-height: 30px;
+ +    font-weight: 300;
+ +    color: #565656;
+  }
+  
+  
+ @@ -45,14 +49,9 @@ button[type="submit"] {
+      border: 0;
+      display: block;
+      border: 0;
+ -    padding:15px 0;
+ -
+ -
+ -}
+ +    padding:15px;
+ +    box-sizing: border-box;
+  
+ -.email1, .password1 {
+ -    display: block;
+ -    margin: 20px auto;
+  
+  }
+  
